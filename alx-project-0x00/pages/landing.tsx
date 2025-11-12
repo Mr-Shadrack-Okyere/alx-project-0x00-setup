@@ -7,11 +7,12 @@ const Landing: React.FC =  () => {
     //   <Card />
     // </div>
 
-    <div className="flex gap-3 mt-4">
+    <div className="flex flex-col items-center justify-center min-h-screen gap-3 mt-4">
         <Button title="Small Rounded" size="small" shape="rounded-sm" />
         <Button title="Medium" size="medium" shape="rounded-md" />
         <Button title="Large" size="large" shape="rounded-lg" />
-        <button />
+        <Button title="Large" size="large" shape="rounded-full" />
+        
     </div>
   )
 }
