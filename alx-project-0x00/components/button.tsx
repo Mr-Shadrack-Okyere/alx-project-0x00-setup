@@ -1,6 +1,6 @@
 import {ButtonProps} from "@/interfaces";
-import { text } from "stream/consumers";
-// const Button: React.FC<ButtonProps> {title, size, shape}
+// import { text } from "stream/consumers";
+
 export default function Button({title, size, shape}: ButtonProps) {
     return(
         <button 
