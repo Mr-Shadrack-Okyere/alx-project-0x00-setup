@@ -8,7 +8,7 @@ const Landing: React.FC =  () => {
     // </div>
 
     <div className="flex gap-3 mt-4">
-        <Button title="Small" size="small" shape="rounded-sm" />
+        <Button title="Small Rounded" size="small" shape="rounded-sm" />
         <Button title="Medium" size="medium" shape="rounded-md" />
         <Button title="Large" size="large" shape="rounded-lg" />
         <button />
